@@ -1,0 +1,69 @@
+{
+    "courses":[
+        {
+            "id":1,
+            "title": "Guitar Fundamentals",
+            "slug": "guitar-fundamentals",
+            "description": "This course will teach you the basics of playing guitar.",
+            "price": 99.99,
+            "instructor": "Ayushman Khurana",
+            "isFeatured": true,
+            "image": ""
+        },
+
+        {
+            "id":2,
+            "title": "Piano for Beginners",
+            "slug": "piano-for-beginners",
+            "description": "This course will teach you the basics of playing guitar.",
+            "price": 99.99,
+            "instructor": "Ayushman Khurana",
+            "isFeatured": true,
+            "image": ""
+        },
+        
+        {
+            "id":3,
+            "title": "Druming Mastery",
+            "slug": "druming-mastery",
+            "description": "This course will teach you the basics of playing guitar.",
+            "price": 99.99,
+            "instructor": "Ayushman Khurana",
+            "isFeatured": true,
+            "image": ""
+        },
+
+        {
+            "id":4,
+            "title": "Vocal Basics",
+            "slug": "vocal-basics",
+            "description": "This course will teach you the basics of playing guitar.",
+            "price": 99.99,
+            "instructor": "Ayushman Khurana",
+            "isFeatured": true,
+            "image": ""
+        },
+
+        {
+            "id":5,
+            "title": "Jazz Improvisation",
+            "slug": "jazz-improvisation",
+            "description": "This course will teach you the basics of playing guitar.",
+            "price": 99.99,
+            "instructor": "Ayushman Khurana",
+            "isFeatured": true,
+            "image": ""
+        },
+
+        {
+            "id":6,
+            "title": "Music Production Fundamentals",
+            "slug": "music-production-fundamentals",
+            "description": "This course will teach you the basics of playing guitar.",
+            "price": 99.99,
+            "instructor": "Ayushman Khurana",
+            "isFeatured": true,
+            "image": ""
+        }
+    ]
+}
