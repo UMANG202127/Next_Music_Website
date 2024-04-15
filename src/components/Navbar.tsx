@@ -15,60 +15,50 @@ function Navbar({ className }: { className?: string }) {
     )}
     >
       <Menu setActive={setActive}>
-        <MenuItem setActive={setActive} active={active} item="Services">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
-          </div>
+        <MenuItem setActive={setActive} active={active} item="Home">
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Courses">
-          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
-            <ProductItem
-              title="Guitar Fundamentals"
-              href=""
-              src=""
-              description="Learn how to wet girls with your fingers on guitar."
-            />
-          </div>    
+        <MenuItem setActive={setActive} active={active} item="Our Courses">
+          <div className="flex flex-col space-y-4 text-sm">
+            <HoveredLink href="/courses">All Courses</HoveredLink>
+            <HoveredLink href="/courses">Basic Music Theory</HoveredLink>
+            <HoveredLink href="/courses">Advance Composition</HoveredLink>
+            <HoveredLink href="/courses">Songwritting</HoveredLink>
+            <HoveredLink href="/courses">Music Production</HoveredLink>
+          </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Products">
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
-              title="Algochurn"
+              title=""
               href=""
               src=""
-              description="Prepare for tech interviews like never before."
+              description=""
             />
             <ProductItem
-              title="Tailwind Master Kit"
+              title=""
               href=""
               src=""
-              description="Production ready Tailwind css components for your next project"
+              description=""
             />
             <ProductItem
-              title="Moonbeam"
+              title=""
               href=""
               src=""
-              description="Never write from scratch again. Go from idea to blog in minutes."
+              description=""
             />
             <ProductItem
-              title="Rogue"
+              title=""
               href=""
               src=""
-              description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
+              description=""
             />
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Pricing">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
-          </div>
-        </MenuItem>
+        <Link href={"/Login"}>
+        <MenuItem setActive={setActive} active={active} 
+        item="Login/Register">
+        </MenuItem>  
+        </Link>
       </Menu>
     </div>
   );
