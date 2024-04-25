@@ -21,7 +21,7 @@ const content = [
         "Immerse yourself in an interactive learning experience where feedback is immediate, just like real-time changes in a collaborative projects. This approach enhance your understanding and mastery of music concepts and performance techniques.",
       content: (
         <div className="h-full w-full  flex items-center justify-center text-white">
-          Real time changes
+          Live Feedback & Engagement
         </div>
       ),
     },
