@@ -8,7 +8,7 @@
             "price": 99.99,
             "instructor": "Ayushman Khurana",
             "isFeatured": true,
-            "image": ""
+            "image": "/courses/guitar.jpg"
         },
 
         {
@@ -19,7 +19,7 @@
             "price": 99.99,
             "instructor": "Ayushman Khurana",
             "isFeatured": true,
-            "image": ""
+            "image": "/courses/piano.jpg"
         },
         
         {
@@ -30,7 +30,7 @@
             "price": 99.99,
             "instructor": "Ayushman Khurana",
             "isFeatured": true,
-            "image": ""
+            "image": "/courses/drumming.jpg"
         },
 
         {
@@ -41,7 +41,7 @@
             "price": 99.99,
             "instructor": "Ayushman Khurana",
             "isFeatured": true,
-            "image": ""
+            "image": "/courses/vocal.jpg"
         },
 
         {
@@ -52,7 +52,7 @@
             "price": 99.99,
             "instructor": "Ayushman Khurana",
             "isFeatured": true,
-            "image": ""
+            "image": "/courses/jazz.jpg"
         },
 
         {
@@ -63,7 +63,7 @@
             "price": 99.99,
             "instructor": "Ayushman Khurana",
             "isFeatured": true,
-            "image": ""
+            "image": "/courses/music_prodution.jpg"
         }
     ]
 }
