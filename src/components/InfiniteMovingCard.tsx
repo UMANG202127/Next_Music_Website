@@ -25,30 +25,30 @@ function InfiniteMovingCard() {
 const testimonials = [
     {
       quote:
-        "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
+        "Music is the one incorporeal entrance into the higher world of knowledge which comprehends mankind but which mankind cannot comprehend.",
       name: "Charles Dickens",
       title: "A Tale of Two Cities",
     },
     {
       quote:
-        "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
+        "Music is the divine way to tell beautiful, poetic things to the heart. He was also a dedicated humanitarian and peace activist, and he used his music to promote social justice and human rights. Casals legacy continues to inspire musicians and music lovers around the world",
       name: "William Shakespeare",
       title: "Hamlet",
     },
     {
-      quote: "All that we see or seem is but a dream within a dream.",
+      quote: "All sounds have been as music to my listening: / Pacific lamentations of slow bells, / The crunch of boots on blue snow rosy-glistening, / Shuffle of autumn leaves; and all farewells:",
       name: "Edgar Allan Poe",
       title: "A Dream Within a Dream",
     },
     {
       quote:
-        "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+        "When music sounds, gone is the earth I know, / And all her lovely things even lovelier grow; / Her flowers in vision flame, her forest trees / Lift burdened branches, stilled with ecstasies.",
       name: "Jane Austen",
       title: "Pride and Prejudice",
     },
     {
       quote:
-        "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
+        "Music is my channel broadcasting the emotions of love, pain and happiness with a rhythm... The harmony of the notes, and rhythm explains it all...it can be with unheard words, from an unseen poet, a silent songwriter.",
       name: "Herman Melville",
       title: "Moby-Dick",
     },

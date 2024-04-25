@@ -8,43 +8,43 @@ function UpComingWebinars() {
     {
         title: "Understanding Music Theory",
     description:
-      "Dive deep into the fundamentals of music theory and enhance your musical skills",
+      "Understanding music theory involves learning the language and concepts that explain how music works. It covers various topics such as notes, scales, intervals, chords, rhythm, and reading sheet music.",
     slug :"understanding-music-theory",
     isFeatured: true,
     },
     {
-        title: "Understanding Music Theory",
+        title: "The Art of Improvisation",
     description:
-      "Dive deep into the fundamentals of music theory and enhance your musical skills",
-    slug :"understanding-music-theory",
+      "Improvisation in music is the art of creating music spontaneously, without prior preparation or planning. It involves a musician's ability to think on their feet, respond to the music around them, and express themselves freely through their instrument.",
+    slug :"the-art-of-improvisation",
     isFeatured: true,
     },
     {
-        title: "Understanding Music Theory",
+        title: "The Language of Music",
     description:
-      "Dive deep into the fundamentals of music theory and enhance your musical skills",
-    slug :"understanding-music-theory",
+      "The genre owes much of its success in the first two decades of the 21st century to digital video sharing, with artists such as Daddy Yankee, Luis Fonsi, Jennifer Lopez, Shakira, and Bad Bunny being at the forefront of this trend.",
+    slug :"the-language-of-music",
     isFeatured: true,
     },
     {
-        title: "Understanding Music Theory",
+        title: "The Art of Songwriting",
     description:
-      "Dive deep into the fundamentals of music theory and enhance your musical skills",
-    slug :"understanding-music-theory",
+      "The Art of Songwriting is a craft that involves creating a melody and lyrics to express emotions, tell a story, or convey a message. It requires creativity, skill, and practice to write a song that resonates with listeners.",
+    slug :"the-art-of-songwriting",
     isFeatured: true,
     },
     {
-        title: "Understanding Music Theory",
+        title: "Music Marketing",
     description:
-      "Dive deep into the fundamentals of music theory and enhance your musical skills",
-    slug :"understanding-music-theory",
+      "The use of 3D audio and spatial sound is becoming more prevalent in music production, creating a more immersive listening experience.",
+    slug :"music-marketing",
     isFeatured: true,
     },
     {
-        title: "Understanding Music Theory",
+        title: "The Future of Music",
     description:
-      "Dive deep into the fundamentals of music theory and enhance your musical skills",
-    slug :"understanding-music-theory",
+      "Overall, the music industry is set to continue evolving in 2024, with new technologies and trends shaping the way music is produced, marketed, and consumed.",
+    slug :"the-future-of-music",
     isFeatured: true,
     }
 
