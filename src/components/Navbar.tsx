@@ -56,7 +56,7 @@ function Navbar({ className }: { className?: string }) {
             />
           </div>
         </MenuItem>
-        <Link href={"/login"}>
+        <Link href={"/signup"}>
         <MenuItem setActive={setActive} active={active} 
         item="Login/Register">
         </MenuItem>  
