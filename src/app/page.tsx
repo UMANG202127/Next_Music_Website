@@ -17,7 +17,7 @@ export default function Home() {
       <RevealEffect />
       <InfiniteMovingCard />
       <UpComingWebinars />
-      <Footer />
+      
       
     </main>
   );
