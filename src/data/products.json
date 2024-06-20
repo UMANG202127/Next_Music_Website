@@ -1,0 +1,65 @@
+{
+    "products":[
+        {
+            "id":1,
+            "title": "Guitar ",
+            "slug": "guitar",
+            "description": "Medellin 38” Matt Acoustic Guitar Linden Wood Rosewood Right Hand Orientation  (Blue)",
+            "price": "$ 99",
+            "instructor": "Ayushman Khurana",
+            "isFeatured": true,
+            "image": "/courses/guitar.jpg"
+            
+        },
+        {
+            "id":2,
+            "title": "Piano ",
+            "slug": "piano",
+            "description": "Medellin 38” Matt Acoustic Piano Linden Wood Rosewood Right Hand Orientation  (Blue)",
+            "price": "$ 199",
+            "instructor": "Ayushman Khurana",
+            "isFeatured": true,
+            "image": "/courses/piano.jpg"
+        },
+        {
+            "id":3,
+            "title": "Drum",
+            "slug": "drum",
+            "description": "Medellin 38” Matt Acoustic Guitar Linden Wood Rosewood Right Hand Orientation  (Blue)",
+            "price": "$ 199",
+            "instructor": "Ayushman Khurana",
+            "isFeatured": true,
+            "image": "/courses/drumming.jpg"
+        },
+        {
+            "id":4,
+            "title": "Guitar ",
+            "slug": "guitar",
+            "description": "Medellin 38” Matt Acoustic Guitar Linden Wood Rosewood Right Hand Orientation  (Blue",
+            "price": "$99",
+            "instructor": "Ayushman Khurana",
+            "isFeatured": true,
+            "image": "/courses/guitar.jpg"
+        },
+        {
+            "id":5,
+            "title": "Guitar ",
+            "slug": "guitar",
+            "description": "Medellin 38” Matt Acoustic Guitar Linden Wood Rosewood Right Hand Orientation  (Blue",
+            "price": "$99",
+            "instructor": "Ayushman Khurana",
+            "isFeatured": true,
+            "image": "/courses/guitar.jpg"
+        },
+        {
+            "id":6,
+            "title": "Guitar ",
+            "slug": "guitar",
+            "description": "Medellin 38” Matt Acoustic Guitar Linden Wood Rosewood Right Hand Orientation  (Blue",
+            "price": "$99",
+            "instructor": "Ayushman Khurana",
+            "isFeatured": true,
+            "image": "/courses/guitar.jpg"
+        }
+    ]
+}

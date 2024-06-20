@@ -1,50 +1,29 @@
-'use client'
-import axios from 'axios'
-import Link from 'next/link'
-import React, { useState } from 'react'
-import toast from 'react-hot-toast'
-import { useRouter } from 'next/navigation'
+
+import { LoginLink, LogoutLink } from "@kinde-oss/kinde-auth-nextjs"
+import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server"
+import { redirect } from "next/navigation"
 
 
-export default function ProfilePage() {
-  const router = useRouter();
-  const [data, setData] = useState("nothing")
+export default async function profile(){
+  
+  const {getUser} = getKindeServerSession()
 
-  const logout = async () =>{
-    try {
-      await axios.get('/api/users/logout')
-      toast.success('logout successfull')
-      router.push("/login")
+  const user = await getUser();
+
+  if (!user) return redirect('/')
+
+ 
+  
+  return(
+    <>
+    <div className="min-h-screen bg-black py-12 pt-36">
+      <div className="text-lg md:text-5xl text-center font-sans font-bold mb-8 text-white">
+       hey {user.given_name} {user.family_name}
+      </div>
       
-    } catch (error: any) {
-      console.log(error.message)
-      toast.error(error.message)
-    }
-  }
 
-  const getUserDetails = async () => {
-    const res = await axios.get('api/users/me')
-    console.log(res.data);
-    setData(res.data.data._id)
-    
-  }
-
-  return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <h1>Profile page</h1>
-      <hr />
-      <p>profile page</p>
-      <h2 className='p-1 rounded bg-green-500'>{data === "nothing" ? "nothing" : <Link href={`/profile/${data}`}>{data}</Link>}</h2>
-
-      <hr />
-      <button 
-      onClick={logout}
-      className="bg-blue-500 hover:bg-blue-700 text-white font bold py-2 px-4 rounded mt-4">logout</button>
-       <button 
-      onClick={getUserDetails}
-      className="bg-purple-900 hover:bg-green-700 text-white font bold py-2 px-4 rounded mt-4">User Details</button>
     </div>
+    </>
   )
 }
-
 

@@ -7,7 +7,7 @@ import Link from "next/link";
 
 function page() {
   return (
-    <div className="min-h-screen bg-black py-12 pt-36">
+    <div className="min-h-screen bg-gray-900 py-12 pt-36">
       <h1 className="text-lg md:text-5xl text-center font-sans font-bold mb-8 text-white">
         All Courses {courseData.courses.length}
       </h1>
@@ -41,7 +41,7 @@ function page() {
                 <CardItem
                   translateZ={20}
                   as={Link}
-                  href="https://twitter.com/mannupaaji"
+                  href="https://www.udemy.com/course/complete-guitar-system-beginner-to-advanced/?couponCode=24T6MT62024"
                   target="__blank"
                   className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                 >
