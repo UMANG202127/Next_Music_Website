@@ -37,7 +37,7 @@ function Footer() {
                 </h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
-                    <a href="" className="hover:underline flex items-center">
+                    <a href="https://www.instagram.com/" target="_blank" className="hover:underline flex items-center">
                       <span className="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#c13584]">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ function Footer() {
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a href="" className="hover:underline flex items-center">
+                    <a href="https://www.facebook.com/" target="_blank" className="hover:underline flex items-center">
                       <span className="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#1877f2]">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="https://discord.gg/4eeurUVvTy"
+                      href="https://www.youtube.com/" target="_blank"
                       className="hover:underline flex items-center"
                     >
                       <span className="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#ff0000]">

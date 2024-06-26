@@ -37,7 +37,7 @@ function Navbar({ className }: { className?: string }) {
         </Link>
         <RegisterLink>
         <MenuItem setActive={setActive} active={active} 
-        item="Login">
+        item="Login / Register">
         </MenuItem>  
         </RegisterLink>
       </Menu>

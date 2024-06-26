@@ -18,7 +18,8 @@ export default async function profile(){
     <>
     <div className="min-h-screen bg-black py-12 pt-36">
       <div className="text-lg md:text-5xl text-center font-sans font-bold mb-8 text-white">
-       hey {user.given_name} {user.family_name}
+       Hey, Welcome {user.given_name!.charAt(0).toUpperCase()}{user.given_name!.slice(1)} {user.family_name?.charAt(0).toUpperCase()}{user.family_name?.slice(1)}
+
       </div>
       
 
