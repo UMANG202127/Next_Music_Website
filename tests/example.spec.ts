@@ -9,11 +9,11 @@ test('has title', async ({ page }) => {
 
 
 test('should navigate to the courses page', async ({ page }) => {
-  // Start from the index page (the baseURL is set via the webServer in the playwright.config.ts)
+  // Start from the index page 
   await page.goto('http://localhost:3000/')
-  // Find an element with the text 'About' and click on it
+  // Find an element with the text 'Courses' and click on it
   await page.click('text=Courses')
-  // The new URL should be "/about" (baseURL is used there)
+  // The new URL should be "/courses" (baseURL is used there)
   await expect(page).toHaveURL('http://localhost:3000/courses')
   
 })
