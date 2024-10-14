@@ -15,7 +15,7 @@ function page() {
 
       <div className="flex flex-wrap justify-center gap-8 mt-10 mb-20">
         {productsData.products.map((product) => (
-          <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
+          <BackgroundGradient key={"id"} className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
           <Image
             src={product.image}
             alt="guitar"
